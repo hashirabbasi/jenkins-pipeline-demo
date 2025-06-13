@@ -34,7 +34,7 @@ pipeline {
                 sh 'npm test -- --coverage'
             }
         }
-
+        
         stage('Check Coverage Threshold') {
             steps {
                 script {
